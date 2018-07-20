@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+<h1>Very Good Trip</h1>
+<input type="text" name="" value="search">
+<input type="submit" name="" value="Recherche">
+{{ form_start(formSearch)}}
+  {{ form_widget(formSearch) }}
+{{ form_end(formSearch)}}
+
+{% endblock %}
